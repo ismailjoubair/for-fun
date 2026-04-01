@@ -1,41 +1,30 @@
-# for-fun
-🚀 C-Codes for FunWelcome to my personal collection of C programs and shell scripts! This repository is a playground where I practice logic, play with arrays, and build simple terminal tools. Most of these were created while learning the fundamentals of programming.
-#📂 Project GalleryHere 
-is a breakdown of what I've built so far:
-File             |||||||||||||                   Description              ||||||||||||||                Highlights                                               
+# 🚀 Codes for Fun (C Edition)
 
-calc.c                                   A multi-function calculator.                     Handles +, -, *, and / using user input.                               
+Welcome to my personal sandbox of **C programs** and **Shell scripts**! This repository is a collection of my journey through low-level programming, logic puzzles, and terminal experiments. Everything here was built "just for fun" while exploring how code interacts with memory and logic.
 
-fabunocci.c                              An infinite Fibonacci generator.                 Calculates the sequence up to 255 in a continuous loop.               
+---
 
-classe.c                                 A student grade checker.                         Uses strcmp to find names in a list and return grades/mentions.        
+### 📂 Project Overview
 
-etoile.c                                 A geometric star pattern generator.              Generates a right-angled triangle of * based on user height.           
+| File Name | Category | Description | Key Concept |
+| :--- | :--- | :--- | :--- |
+| **`calc.c`** | 🧮 Math | A dynamic calculator for basic operations (+, -, *, /). | Conditionals |
+| **`fabunocci.c`**| 🌀 Logic | An infinite loop generating the Fibonacci sequence. | Iteration |
+| **`classe.c`** | 🎓 Data | A student grade lookup system with custom mentions. | String Comparison |
+| **`etoile.c`** | ✨ Visual | Generates a right-angled triangle pattern of stars. | Nested Loops |
+| **`moy.c`** | 📊 Stats | Calculates average and finds the maximum of 5 notes. | Array Traversal |
+| **`inv.c`** | 🔄 Arrays | Reverses the order of a user-defined array. | Memory Access |
+| **`pari.c`** | ⚖️ Math | Determines if a number is Even (Pair) or Odd (Impair). | Modulo (%) |
+| **`chech.c`** | 🔍 Search | A search engine for finding numbers in a 10-item list. | Linear Search |
+| **`sc.sh`** | 🐚 Shell | A Bash function that renders a visual progress bar. | Shell Scripting |
+| **`print.c`** | Hello | The essential first step for any C programmer. | Basic I/O |
 
-moy.c                                    Grade statistics tool.                           Calculates the average and finds the maximum from a list of notes.     
+---
 
-inv.c                                    Array inverter.                                  Takes a custom -sized array and prints it in reverse order.            
+### 🛠️ Setup & Execution
 
-pari.c                                   Even/Odd checker.                                Uses the modulo operator % to determine number parity.                
+To run these programs, you will need a C compiler like `gcc`.
 
-chech.c                                  A search simulation.                             Searches for a specific number within a 10-element array.              
-
-sc.sh                                    A Bash utility.                                  A custom shell function to display a visual progress bar.              
-
-print.c                                  The classic.                                     Every journey starts with "Hello World!".                              
-
-#🛠️ How to Compile & Run
-To run the C programs, use gcc. 
-For the bash script, you can source it.  
-For C files:
-Bash# Compile
-gcc filename.c -o output
-
-# Run
-./output
-For the Bash Script:Bash# Source the file to use the progress-bar function
-source sc.sh
-
-# Example usage:
-progress-bar 50 100
-🧠 Logic ExperimentsMemory & Arrays: Scripts like inv.c and chech.c helped me understand how to navigate data in memory.Conditionals: calc.c and classe.c explore nested logic and string comparisons.Loops: fabunocci.c demonstrates how to manage variables during iterative calculations.📝 Notes & Error HandlingI’ve included some "Easter eggs" and error messages in my code, like the custom Error 404 in calc.c if you choose an invalid operator!
+#### 1. Compile a C program
+```bash
+gcc filename.c -o my_program
